@@ -2,6 +2,27 @@
   "expo": {
     "name": "03-expo-router",
     "slug": "03-expo-router",
-    "version": "1.0.0"
+    "scheme": "03-expo-router",
+    "version": "1.0.0",
+    "web": {
+      "bundler": "metro"
+    },
+    "android": {
+      "package": "com.pedrosm.target",
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3d44cd"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.pedrosm.target",
+      "icon": "./assets/ios-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-sqlite"
+    ]
   }
 }

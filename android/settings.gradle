@@ -31,7 +31,7 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
 }
 expoAutolinking.useExpoModules()
 
-rootProject.name = '03exporouter'
+rootProject.name = '03-expo-router'
 
 expoAutolinking.useExpoVersionCatalog()
 
